@@ -7,18 +7,57 @@ const ingredients = [
   'Condiments',
 ];
 
-const liElOne = document.createElement("li");
-liElOne.textContent = "Potatoes" 
-const liElTwo = document.createElement("li");
-liElTwo.textContent = "Mushrooms" 
-const liElThree = document.createElement("li");
-liElThree.textContent = "Garlic" 
-const liElThour = document.createElement("li");
-liElThour.textContent = "Tomatos" 
-const liElFive = document.createElement("li");
-liElFive.textContent = "Herbs"
-const liElSix = document.createElement("li");
-liElSix.textContent = "Condiments"
+//  const ul = document.querySelector("#ingredients");
+ 
+
+//    ul.append(
+//   ...ingredients.map((item) => {
+//     let itemList = document.createElement("li");
+//     itemList.textContent = item;
+//     return itemList;
+//   })
+// );
+
+  
+
+
+const ul = document.querySelector("#ingredients");
+
+ul.append(...ingredients.map((item) => {
+  let itemList = document.createElement("li");
+  itemList.textContent = item;
+  return itemList;
+})
+)
+
+
+
+
+
+
+
+// let ul = document.querySelector("#ingredients");
+
+// let letEl = document.createElement("li");
+// letEl.textContent = ingredients
+
+// for (const name of ingredients) {
+
+ 
+// }
+// ul.appendChild(letEl);
+
+
+
+// console.log(liEl)
+// ul.appendChild(liEl)
+
+
+
+
+
+
+
 
 
 

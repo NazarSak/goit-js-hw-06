@@ -22,3 +22,10 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+.taskThree{
+  list-style: none;
+  text-align: center;
+  background-color: aquamarine;
+}
