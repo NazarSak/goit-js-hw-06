@@ -10,8 +10,8 @@ refs.input.addEventListener("input", onInputChange);
 function onInputChange(event) {
 refs.span.textContent = event.currentTarget.value;
 
-if (refs.input = "") {
- return  refs.span.textContent = "mus" 
+if (event.currentTarget.value === "") {
+ return  refs.span.textContent = "Anonymous" ;
 }
 
 }
