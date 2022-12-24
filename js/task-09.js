@@ -14,6 +14,4 @@ function chnageColorFunction () {
   const colors = getRandomHexColor();
   document.body.style.backgroundColor = colors;
   span.textContent = colors 
- 
-
 }
