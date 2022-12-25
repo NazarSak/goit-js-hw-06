@@ -17,8 +17,9 @@ const images = [
 const ul = document.querySelector(".gallery")
 
 for (const image of images) {
-  
-  ul.insertAdjacentHTML("afterbegin",`<li> <img src = "${image.url}" alt = "${image.alt}" width = "500" height = "500"  />  </li>`)
+  let aditional = `<li> <img src = "${image.url}" alt = "${image.alt}" width = "500" height = "500"  />  </li>`;
+
+  ul.insertAdjacentHTML("afterbegin",aditional)
 }
 
 ul.classList.add("taskThree")

@@ -21,9 +21,9 @@ const ingredients = [
   
 
 
-const ul = document.querySelector("#ingredients");
+const list = document.querySelector("#ingredients");
 
-ul.append(...ingredients.map((item) => {
+list.append(...ingredients.map((item) => {
   let itemList = document.createElement("li");
   itemList.textContent = item;
   return itemList;
