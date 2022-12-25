@@ -1,26 +1,3 @@
-// const general = document.querySelector("#validation-input");
-
-// const my = general.getAttribute("data-length")
-
-
-
-
-
-
-// function onBlurFunction (event) {
-//     if (event.currentTarget.value.length === my) {
-//         general.classList.add("valid");
-//         general.classList.remove("invalid")  
-      
-//     }
-//     else {
-//         general.classList.add("invalid")
-//       general.classList.remove("valid")  
-    
-//     }
-// }
-
-
 
 
 
